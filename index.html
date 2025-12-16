@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Imagenes/icon-la-gaviota.png" type="image/x-icon" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'lovelo';
+            src: url('./fonts/Lovelo Black.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .font-lovelo {
+            font-family: 'lovelo', sans-serif;
+        }
+        @font-face {
+            font-family: 'general';
+            src: url('./fonts/GeneralSans-Variable.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .font-general {
+            font-family: 'general', sans-serif;
+        }
+    </style>
+    <title>La Gaviota Eventos</title>
+</head>
+<body class="bg-[#ede6d5] text-[#3E2C1C] min-h-screen p-4">
+
+    <div class="max-w-2xl mx-auto grid gap-6 bg-[#ede6d5]">
+
+        <!-- Header -->
+        <header class="flex flex-col items-center gap-4">
+        <div class="w-full bg-[#ede6d5] border border-[#3E2C1C] rounded-xl shadow p-4 text-center">
+            <h1 class="text-3xl font-lovelo">La Gaviota</h1>
+        </div>
+        <div class="grid grid-cols-2 gap-4 w-full">
+            <h2 class="text-xl font-general bg-[#ede6d5] border border-[#3E2C1C] rounded-xl shadow py-2 text-center">Adorada</h2>
+            <p class="text-xl font-general bg-[#ede6d5] border border-[#3E2C1C] rounded-xl shadow py-2 text-center">29 de Noviembre</p>
+        </div>
+        </header>
+
+        <!-- Main -->
+        <main class="bg-[#ede6d5] border border-[#3E2C1C] rounded-xl shadow p-4 w-full">
+        <ul class="space-y-6">
+            <!-- Repetir por categoría -->
+            <li>
+            <h2 class="text-xl font-lovelo text-center border-b border-[#3E2C1C] pb-2 mb-2">Tarde de Brunch</h2>
+            <ul class="space-y-1">
+                <li class="font-semibold">Infuciones libre</li>
+                <li class="pl-4">Latte</li>
+                <li class="pl-4">Lagrima</li>
+                <li class="pl-4">Cortado</li>
+                <li class="pl-4">Americano</li>
+                <li class="pl-4">Té en Hebras</li>
+                <li class="font-semibold">Jugos</li>
+                <li class="pl-4">Limonada con Menta y Jengibre</li>
+                <li class="pl-4">Agua</li>
+            </ul>
+            </li>
+            <li>
+            <h2 class="text-xl font-lovelo text-center border-b border-[#3E2C1C] pb-2 mb-2">Pasteleria</h2>
+            <ul class="space-y-1">
+                <li class="pl-4">Media Lunas con Jamón y Queso</li>
+                <li class="pl-4">Budín de limón y amapolas</li>
+                <li class="pl-4">Brownie con crema y frutillas</li>
+                <li class="pl-4">Lemonpie</li>
+                <li class="pl-4">Profiteroles de crema y pistacho</li>
+                <li class="pl-4">Tostón (queso crema, palta, cherry y huevo revuelto)</li>
+            </ul>
+            </li>
+            <li>
+            <h2 class="text-xl font-lovelo text-center border-b border-[#3E2C1C] pb-2 mb-2">Servicios</h2>
+            <ul class="space-y-1">
+                <li class="font-semibold">Estacionamiento privado</li>
+            </ul>
+            </li>
+        </ul>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-[#ede6d5] border border-[#3E2C1C] rounded-xl shadow py-4 text-center w-full">
+            <h2 class="text-lg font-general">Horario: 16 a 19hs </br> Valor por Persona 30.000</h2>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
